@@ -1,0 +1,15 @@
+//-----------------------------------------------------
+// Use layouts for reusable sections of the site
+//-----------------------------------------------------
+// This file imports everything from its parent folder
+//-----------------------------------------------------
+// "style.scss" Imports *just* this file
+//-----------------------------------------------------
+@import 'footer';
+@import 'header';
+@import 'navigation';
+@import 'sidebar';
+@import 'flex-content';
+@import 'jumbotron';
+@import 'hero-landing';
+@import 'hero-sub-page';

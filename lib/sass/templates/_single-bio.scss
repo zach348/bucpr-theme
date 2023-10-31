@@ -1,0 +1,272 @@
+.single-bio {
+	position: relative;
+
+	.site {
+		.content-area {
+			.bio-header {
+				height: 425px;
+
+				.no-headshot {
+					background-color: rgba(0,0,0,.05);
+				}
+
+				.initials {
+					font-size: calc(6vw + 2rem);
+					border-bottom: .5vw solid $secondary-color;
+					line-height: 1;
+					font-weight: 300;
+				}
+
+				.nudge {
+					background-position: center center;
+				}
+
+				.no-nudge {
+					background-position-y: center;
+				}
+
+				.nudge-up-lg {
+					background-position-y: 100%;
+				}
+
+				.nudge-up-md {
+					background-position-y: 80%;
+				}
+
+				.nudge-up-sm {
+					background-position-y: 60%;
+				}
+
+				.nudge-down-sm {
+					background-position-y: 40%;
+				}
+
+				.nudge-down-md {
+					background-position-y: 20%;
+				}
+
+				.nudge-down-lg {
+					background-position-y: 0;
+				}
+
+				.content {
+					.inner {
+						margin-left: 15px;
+
+						.flourish {
+							//width: 100%;
+						}
+
+						h1 {
+							// font-size: 36px;
+							// font-weight: normal;
+							// font-style: normal;
+							// font-stretch: normal;
+							// line-height: 1;
+							// letter-spacing: normal;
+							// margin-top: 30px;
+							// margin-bottom: 5px;
+						}
+
+						h4 {
+							// font-size: 24px;
+							// font-weight: normal;
+							// font-style: normal;
+							// font-stretch: normal;
+							// line-height: 1.5;
+							// letter-spacing: normal;
+						}
+
+						small {
+							font-size: 16px;
+							// font-weight: normal;
+							// font-style: normal;
+							// font-stretch: normal;
+							// line-height: 1.4;
+							// letter-spacing: normal;
+						}
+
+						.button-wrapper {
+							//margin-top: 44px;
+							a {
+								margin: 0;
+								line-height: 1px;
+							}
+						}
+					}
+				}
+
+				.image {}
+			}
+
+			.site-main {
+				article {
+					header {
+						background: none;
+					}
+
+					.entry-content {}
+
+					footer {}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 1240px) {
+	.single {
+		.site {
+			.content-area {
+				.bio-header {
+					.flourish {}
+
+					.content {
+						//padding-left: 30px !important;
+					}
+				}
+
+				.site-main {
+					article {
+						header {}
+
+						.entry-content {}
+
+						footer {}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 992px) {
+	.single {
+		.site {
+			.content-area {
+				.bio-header {
+					.content {
+						.inner {
+							.flourish {
+								width: 100%;
+							}
+
+							h1 {
+								// font-size: 30px;
+								// font-weight: normal;
+								// font-style: normal;
+								// font-stretch: normal;
+								// line-height: 1.25;
+								// letter-spacing: normal;
+							}
+
+							h4 {
+								// font-size: 18px;
+								// font-weight: normal;
+								// font-style: normal;
+								// font-stretch: normal;
+								// line-height: 2;
+								// letter-spacing: normal;
+							}
+
+							small {
+								// font-size: 16px;
+								// font-weight: normal;
+								// font-style: normal;
+								// font-stretch: normal;
+								// line-height: 1;
+								// letter-spacing: normal;
+							}
+						}
+					}
+
+					.image {}
+				}
+
+				.site-main {
+					article {
+						header {}
+
+						.entry-content {}
+
+						footer {}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.single {
+		.site {
+			.content-area {
+				.bio-header {
+					height: auto;
+
+					.content {
+						.inner {
+							.flourish {}
+
+							h1 {}
+
+							h4 {}
+
+							small {}
+						}
+					}
+
+					.image {
+						// min-height: 480px;
+						// height: 100vw;
+					}
+				}
+
+				.site-main {
+					article {
+						header {}
+
+						.entry-content {}
+
+						footer {}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 576px) {
+	.single {
+		.site {
+			.content-area {
+				.bio-header {
+					height: auto;
+
+					.content {
+						.inner {
+							.flourish {}
+
+							h1 {}
+
+							h4 {}
+
+							small {}
+						}
+					}
+
+					.image {
+						min-height: 480px;
+						// height: 100vw;
+					}
+				}
+
+				.site-main {
+					article {
+						header {}
+
+						.entry-content {}
+
+						footer {}
+					}
+				}
+			}
+		}
+	}
+}

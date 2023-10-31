@@ -1,0 +1,288 @@
+.home {
+	.site {
+		position: relative;
+
+		header.site-header {
+			padding-bottom: 0 !important;
+			height: 42rem;
+			position: relative !important;
+
+			.navbar-brand {
+				width: 38vw;
+
+				img {}
+
+				.default {}
+
+				.mobile-active {}
+			}
+
+			.nav-wrapper {
+				width: 60vw;
+				padding: 0;
+
+				.nav-wrapper-inner {
+					nav {
+						.navbar-collapse-inner {
+							width: 100% !important;
+							padding: 0 !important;
+						}
+
+						.searchform {}
+
+						.navbar-brand {}
+
+						.navbar-toggler {
+							.navbar-toggler-icon {
+								background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+							}
+
+							i {}
+
+							.label {
+								color: $white !important;
+							}
+						}
+
+						.navbar-toggler.active {
+							.navbar-toggler-icon {}
+
+							i {}
+
+							.label {
+								color: $white !important;
+								opacity: 1;
+							}
+						}
+
+						ul {
+							li {
+								a {
+									.menu-item-description {
+										display: block;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.tag {
+				h3 {
+					color: $primary-color;
+					max-width: 676px;
+					font-size: 26px;
+					font-weight: normal;
+					font-style: normal;
+					font-stretch: normal;
+					line-height: 42px;
+					letter-spacing: normal;
+				}
+			}
+
+			.tag.active {}
+		}
+
+		.jumbotron {
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100vh;
+			// min-height: 32rem;
+			// max-height: 48rem;
+			position: absolute;
+			width: 37vw;
+			z-index: 99;
+			height: 42rem;
+			top: 0;
+			margin-bottom: 0 !important;
+
+			.text {
+				background: $primary-color;
+				position: absolute;
+				bottom: 0;
+				//padding: 4vw 2vw 4vw 16vw;
+				max-height: 240px;
+				height: 100%;
+				width: 100% !important;
+
+				h1 {
+					font-family: $secondary-font;
+					color: $white;
+					object-fit: contain;
+					font-size: 34px;
+					font-weight: normal;
+					font-style: normal;
+					font-stretch: normal;
+					line-height: 1.29;
+					letter-spacing: normal;
+					margin-left: 15px !important;
+				}
+			}
+			// .title {
+			// 	color: $primary-color;
+			// }
+			//
+			// .text {
+			// 	color: $primary-color;
+			// }
+		}
+
+		.site-content {
+			.carousel {
+				.carousel-item {
+					height: 100vh;
+					min-height: 24rem;
+					background-position: center;
+					background-size: cover;
+
+					.title {
+						color: $primary-color;
+					}
+
+					.text {
+						color: $primary-color;
+					}
+				}
+			}
+
+			#video-hero {
+				height: 88vh;
+				background: red;
+				min-height: 24rem;
+				position: relative;
+
+				#video-background {
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					min-width: 100%;
+					min-height: 100%;
+					width: auto;
+					height: auto;
+				}
+
+				.text {
+					position: relative;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 1199px) {
+	.home {
+		.site {
+			header.site-header {
+				height: auto;
+
+				.nav-wrapper {
+					padding-left: 0 !important;
+				}
+
+				.tag {
+					background: $light-grey;
+					padding: 1.5rem 15px !important;
+					height: auto !important;
+					width: 100%;
+					margin: 0 auto;
+
+					h3 {
+						font-size: 20px;
+						line-height: 30px;
+						text-align: center;
+					}
+				}
+
+				.nav-wrapper {
+					.nav-wrapper-inner {
+						nav {
+							background: $primary-color;
+
+							.navbar-collapse-inner {
+								width: 90% !important;
+								padding: 0 15px !important;
+							}
+
+							.navbar-toggler {
+								.navbar-toggler-icon {
+									//background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+									display: block;
+									background-image: url("../img/tablet-hamburger-home.svg") !important;
+									width: 48px;
+								}
+							}
+
+							.logo-toggle-wrapper {
+								background: $primary-color;
+							}
+
+							ul {
+								li {
+									a {
+										.menu-item-description {
+											display: none;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.jumbotron {
+				.text {
+					h1 {}
+				}
+			}
+
+			.site-content {
+				.carousel {
+					.carousel-item {
+						.title {}
+
+						.text {}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	.home {
+		.site {
+			header {
+				.tag {
+					h3 {
+						font-size: 20px;
+						font-weight: normal;
+						font-style: normal;
+						font-stretch: normal;
+						line-height: 1.5;
+					}
+				}
+
+				nav {
+					.logo-toggle-wrapper {}
+				}
+			}
+
+			.jumbotron {
+				.text {
+					h1 {}
+				}
+			}
+
+			.site-content {
+				.carousel {
+					.carousel-item {
+						.title {}
+
+						.text {}
+					}
+				}
+			}
+		}
+	}
+}
