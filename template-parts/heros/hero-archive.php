@@ -30,14 +30,15 @@
 							<?//php the_field('hero_archive_title','option'); ?>
 							<strong><u><a id="blog-title" href="https://cpr.bu.edu/blog">Welcome to the CPR Blog</a></u></strong>
 						</h1>
-						<h2 class="page-description display-1 mt-3">Your destination for original articles and important information about upcoming CPR events</h2>
+						<p class="page-description display-1 mt-3">Your destination for original articles and important information about upcoming CPR events</p>
 					<?php else : ?>
 						<?php if (get_the_archive_title()): ?>
 							<h1 class="page-title display-1 mt-3">
 								<?//php echo get_the_archive_title(); ?>
 								<strong><u><a id="blog-title" href="https://cpr.bu.edu/blog">Welcome to the CPR Blog</a></u></strong>
-								<h2 class="page-description display-1 mt-3">Your destination for original articles and important information about upcoming CPR events</h2>
 							</h1>
+							<p class="page-description display-1 mt-3">Your destination for original articles and important information about upcoming CPR events</p>
+
 						<?php endif; ?>
 					<?php endif; ?>
 					<?php if (get_field('hero_archive_sub_title','option')) : ?>
