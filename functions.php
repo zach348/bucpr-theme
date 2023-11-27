@@ -583,9 +583,5 @@ function website_remove($fields)
 
 //Custom Cookies
 
-function cookies_timestamp() {  
-$visit_time = date('F j, Y  g:i a');  
-if(!isset($_COOKIE[$visit_time])) {
-setcookie('visit_time', $current_time, time()+86400); 
-}
-}
+
+
