@@ -116,6 +116,7 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
 	            <div class="mc-field-group" style="display:none;">
 	                <label for="mce-REFERREDBY">referringPage </label>
 	                <input type="text" name="REFERREDBY" class=" text" id="mce-REFERREDBY" value=<?php echo $current_url ?>>
+			<input type="hidden" name="tags" value="10185587">
 	            </div>
 	            <div class="mc-field-group" style="display:none;">
 	                <label for="mce-SIGNUP_LOC">signup_location </label>
