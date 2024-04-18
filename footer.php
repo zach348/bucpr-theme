@@ -143,7 +143,7 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
 		   </div>
 		   		<div class="container-fluid">
 			   		<div class="row">
-			   			<div class="col-11"> 
+			   			<div class="col-10"> 
 
 				            <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
 				              <div class="content__gdpr">
@@ -156,7 +156,7 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
 				                </div>
 				            </div>
 			        	</div>
-			                <div class="col-1">
+			                <div class="col-2">
 			                	<input type="checkbox" id="gdpr_34149" name="gdpr[34149]" value="Y" required>
 			                </div>
 			        </div>
