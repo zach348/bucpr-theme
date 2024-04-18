@@ -1,4 +1,4 @@
-?php
+<?php
 /**
  * The template for displaying the footer
  *
@@ -143,21 +143,21 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
 		   </div>
 		   		<div class="container-fluid">
 			   		<div class="row">
-			   			<div class="col-10"> 
+			   			<div class="col-9"> 
 
 				            <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
 				              <div class="content__gdpr">
 				                <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
 									<label class="checkbox subfield required" for="gdpr_34149">
-				                    	<span id="agree-privacy-checkbox-text"> I have read and agree to BU-CPR's <a target="_blank" href="https://cpr.bu.edu/privacy-policy" class="link">Privacy Policy</a></span>
+				                    	<span style="font-size: .75rem;" id="agree-privacy-checkbox-text"> I have read and agree to BU-CPR's <a target="_blank" href="https://cpr.bu.edu/privacy-policy" class="link style="font-size: .75rem !important;">Privacy Policy</a></span>
 				                    </label>
 				                 </fieldset>
 
 				                </div>
 				            </div>
 			        	</div>
-			                <div class="col-2">
-			                	<input type="checkbox" id="gdpr_34149" name="gdpr[34149]" value="Y" required>
+			                <div class="col-3">
+			                	<input type="checkbox" id="gdpr_34149" name="gdpr[34149]" value="Y" style="width: 100% !important;" required>
 			                </div>
 			        </div>
 		    	</div>
