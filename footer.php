@@ -141,24 +141,26 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
        				<input type="checkbox" name="INTERESTS[e21172f166][]" value="446344028c">			 </div>
 		     </div> 
 		   </div>
-		   		<div class="row">
-		   			<div class="col-8"> 
+		   		<div class="container-fluid">
+			   		<div class="row">
+			   			<div class="col-8"> 
 
-			            <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
-			              <div class="content__gdpr">
-			                <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
-								<label class="checkbox subfield required" for="gdpr_34149">
-			                    	<span id="agree-privacy-checkbox-text"> I have read and agree to BU-CPR's <a target="_blank" href="https://cpr.bu.edu/privacy-policy" class="link">Privacy Policy</a></span>
-			                    </label>
-			                 </fieldset>
+				            <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
+				              <div class="content__gdpr">
+				                <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
+									<label class="checkbox subfield required" for="gdpr_34149">
+				                    	<span id="agree-privacy-checkbox-text"> I have read and agree to BU-CPR's <a target="_blank" href="https://cpr.bu.edu/privacy-policy" class="link">Privacy Policy</a></span>
+				                    </label>
+				                 </fieldset>
 
+				                </div>
+				            </div>
+			        	</div>
+			                <div class="col-4">
+			                	<input type="checkbox" id="gdpr_34149" name="gdpr[34149]" value="Y" required>
 			                </div>
-			            </div>
-		        	</div>
-		                <div class="col-4">
-		                	<input type="checkbox" id="gdpr_34149" name="gdpr[34149]" value="Y" required>
-		                </div>
-		        </div>
+			        </div>
+		    	</div>
 	           	<div class="clear">
 	                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
 	            </div>
