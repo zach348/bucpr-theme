@@ -1,4 +1,4 @@
-<?php
+?php
 /**
  * The template for displaying the footer
  *
@@ -116,12 +116,31 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
 	            <div class="mc-field-group" style="display:none;">
 	                <label for="mce-REFERREDBY">referringPage </label>
 	                <input type="text" name="REFERREDBY" class=" text" id="mce-REFERREDBY" value=<?php echo $current_url ?>>
-			<input type="hidden" name="tags" value="10185587">
 	            </div>
 	            <div class="mc-field-group" style="display:none;">
 	                <label for="mce-SIGNUP_LOC">signup_location </label>
 	                <input type="text" name="SIGNUP_LOC" class=" text" id="mce-SIGNUP_LOC" value="footer">
 	            </div>
+		<div class="mc-field-group container-fluid ">
+		   <div class="row">
+ 				 <label><span style="font-weight: bold;font-size: 1rem;"">What would you like updates on?</span></label>	
+		   </div>
+		   <div class="row"> 	
+			<div class="col-8">
+       				 <label>Employment</label>
+		   	</div>
+			<div class="col-4">
+				<input type="checkbox" name="INTERESTS[e21172f166][]" value="e73603a054">
+			</div>
+		    </div>
+		    <div class="row">
+		    	<div class="col-8">
+    				<label>Healthy Aging (SILVER) </label>
+			</div>
+			<div class="col-4">
+       				<input type="checkbox" name="INTERESTS[e21172f166][]" value="446344028c">			 </div>
+		     </div> 
+		   </div>
 	            <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
 	              <div class="content__gdpr">
 	                <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">

@@ -582,6 +582,14 @@ function website_remove($fields)
 }
 
 //Custom Cookies
-
-
-
+function wpb_cookies_tutorial() { 
+ 
+	$visit_time = date('F j, Y  g:i a');
+ 
+	if(!isset($_COOKIE[wpb_visit_time])) {
+ 
+		// set a cookie for 1 year
+		setcookie('wpb_visit_time', $visit_time, time()+31556926);
+	}
+} 
+add_action('init', 'wpb_cookies_tutorial');

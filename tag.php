@@ -22,9 +22,6 @@
 						<div class="col-sm-4"><?php get_sidebar(); ?></div>
 					</div>
 						 <br>
-                        <p><strong>Notice:</strong><em>
-                            The contents of this Blog were developed under a grant from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR grant number 90RTEM0004). NIDILRR is a Center within the Administration for Community Living (ACL), Department of Health and Human Services (HHS). The contents of this Blog do not necessarily represent the policy of NIDILRR, ACL, or HHS, and you should not assume endorsement by the Federal Government.
-                        </em></p>
 				</div>
 			<?php else : ?>
 				<?php get_template_part( 'template-parts/content', 'none' ); ?>
