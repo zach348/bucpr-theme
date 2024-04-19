@@ -150,7 +150,7 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
 				                <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
 									<label class="checkbox subfield required" for="gdpr_34149">
 										<div>
-				                    		d><input type="checkbox" id="gdpr_34149" name="gdpr[34149]" value="Y" style="width: 100% !important;" require<span style="font-size: .6rem;" id="agree-privacy-checkbox-text"> I have read and agree to BU-CPR's <a target="_blank" href="https://cpr.bu.edu/privacy-policy" class="link" style="font-size: .6rem !important;">Privacy Policy</a></span>
+				                    		<input type="checkbox" id="gdpr_34149" name="gdpr[34149]" value="Y" style="width: 100% !important;" required><span style="font-size: .6rem;" id="agree-privacy-checkbox-text"> I have read and agree to BU-CPR's <a target="_blank" href="https://cpr.bu.edu/privacy-policy" class="link" style="font-size: .6rem !important;">Privacy Policy</a></span>
 				                    	</div>
 				                    </label>
 				                 </fieldset>
