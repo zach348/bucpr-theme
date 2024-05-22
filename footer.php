@@ -135,7 +135,7 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
 		    </div>
 		    <div class="row">
 		    	<div class="col-8">
-    				<label>Healthy Aging (S.I.L.V.E.R.)</label>
+    				<label>Healthy Aging (SILVER*)</label>
 			</div>
 			<div class="col-4">
        				<input type="checkbox" class="MC_footer_checkbox" name="INTERESTS[e21172f166][]" value="446344028c">			 </div>
