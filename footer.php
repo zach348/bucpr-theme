@@ -130,7 +130,7 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
        				 <label>Employment</label>
 		   	</div>
 			<div class="col-4">
-				<input type="checkbox" name="INTERESTS[e21172f166][]" value="e73603a054">
+				<input type="checkbox" class="MC_footer_checkbox" name="INTERESTS[e21172f166][]" value="e73603a054">
 			</div>
 		    </div>
 		    <div class="row">
@@ -138,7 +138,7 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
     				<label>Healthy Aging (S.I.L.V.E.R.)</label>
 			</div>
 			<div class="col-4">
-       				<input type="checkbox" name="INTERESTS[e21172f166][]" value="446344028c">			 </div>
+       				<input type="checkbox" class="MC_footer_checkbox" name="INTERESTS[e21172f166][]" value="446344028c">			 </div>
 		     </div> 
 		   </div>
 		   		<div class="container-fluid">
