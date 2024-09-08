@@ -1,0 +1,48 @@
+body {
+	.site-header {}
+
+	.content-area {
+		.search-form {
+			flex-wrap: wrap;
+
+			i {
+				display: none !important;
+			}
+		}
+
+		input {
+			// border: none;
+			border-radius: 0;
+			color: $primary-color !important;
+			font-size: 20px;
+			height: 64px;
+			width: 100%;
+			margin: 0 0 .5rem;
+			padding: 1rem;
+		}
+
+		.search-submit {
+			color: $white !important;
+			font-size: 1rem;
+			letter-spacing: 1px;
+		}
+	}
+}
+@media only screen and (max-width: 992px) {
+	body {
+		.site-header {}
+
+		.content-area {
+			.search-form {
+				i {}
+			}
+
+			input {
+				font-size: 16px;
+				height: 45px;
+			}
+
+			.search-submit {}
+		}
+	}
+}

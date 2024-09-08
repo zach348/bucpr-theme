@@ -1,0 +1,182 @@
+body {
+	button {
+		// position: relative;
+	}
+
+	.btn,
+	.cn-button,
+	.facetwp-autocomplete-update,
+	.tribe-common-c-btn,
+	.tribe-common-h3,
+	.tribe-events-c-nav__next,
+	.tribe-events-c-nav__prev {
+		color: $white;
+		background-color: $primary-color;
+		padding: 0 2rem;
+		border-radius: 0;
+		min-width: 8rem;
+		margin: 1rem 0;
+		border: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		height: 4rem;
+		display: inline-flex;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		line-height: 1.25;
+		text-decoration: none;
+	}
+
+	.btn:active,
+	.btn:focus {
+		outline: 0 !important;
+	}
+
+	.btn:visited {
+		color: $white;
+	}
+
+	.btn:hover {
+		background-color: darken($primary-color,5%);
+	}
+
+	.btn-primary,
+	.cn-button,
+	.tribe-common-c-btn {
+		background-color: $primary-color;
+		color: $white !important;
+	}
+
+	.btn-primary:hover,
+	.btn-primary:hover:visited,
+	.btn-primary:visited,
+	.btn-primary:visited:hover,
+	.cn-button:hover,
+	.cn-button:hover:visited {
+		color: $white;
+	}
+
+	.btn-secondary,
+	.btn-secondary:visited,
+	.tribe-common-h3 {
+		border: .15rem solid $secondary-color;
+		color: $secondary-color !important;
+		background: none;
+		letter-spacing: 1px;
+		text-decoration: none !important;
+	}
+
+	.btn-secondary:hover,
+	.btn-secondary:hover:visited,
+	.btn-secondary:visited:hover {
+		border: .15rem solid $secondary-color;
+		color: $white !important;
+		background: $secondary-color;
+	}
+
+	.btn-text {
+		color: $primary-color;
+		font-size: 16px;
+		font-weight: bold;
+		border: none;
+		background: none;
+		padding-left: 0;
+		padding-right: 0;
+		min-width: 0;
+		letter-spacing: .1rem;
+		margin: 0;
+		height: auto !important;
+
+		span {
+			color: inherit;
+			font-size: inherit;
+			font-weight: inherit;
+			border: inherit;
+			background: inherit;
+			padding-left: inherit;
+			padding-right: inherit;
+			min-width: inherit;
+			letter-spacing: inherit;
+			margin: inherit;
+			height: inherit;
+			border-bottom: .15rem solid #FFF;
+		}
+
+		i {
+			margin: 0 0 0 .5rem;
+		}
+	}
+
+	.btn-text:hover {
+		background: none;
+
+		span {
+			border-bottom: .15rem solid $secondary-color;
+		}
+	}
+
+	.btn-text:visited {
+		color: $primary-color !important;
+
+		span {
+			color: $primary-color !important;
+		}
+	}
+
+	.btn-outline-light,
+	.btn-outline-light:visited,
+	.facetwp-autocomplete-update {
+		border: .15rem solid $white;
+		color: $white !important;
+		background: none;
+		letter-spacing: 1px;
+	}
+
+	.btn-outline-light:hover,
+	.btn-outline-light:visited:hover {
+		border: .15rem solid $white;
+		color: $secondary-color !important;
+		background: $white;
+	}
+}
+@media only screen and (max-width: 992px) {
+	body {
+		button {}
+
+		.btn {
+			font-size: 14px;
+			padding: 0 1rem;
+			min-width: none;
+			height: 45px;
+			letter-spacing: 1px;
+		}
+
+		.btn:hover {}
+
+		.btn-primary {}
+
+		.btn-primary:hover,
+		.btn-primary:hover:visited,
+		.btn-primary:visited,
+		.btn-primary:visited:hover {}
+
+		.btn-secondary {}
+
+		.btn-secondary:hover {}
+
+		.btn-text {
+			span {}
+
+			i {}
+		}
+
+		.btn-text:hover {
+			span {}
+		}
+
+		.btn-outline-light {}
+
+		.btn-outline-light:hover {}
+	}
+}

@@ -1,0 +1,55 @@
+$primary-color: #144c52; //dark green
+$secondary-color: #019f9d; //teal
+$tertiary-color: #cdffeb; //lightteal
+$medium-grey: #616161;
+$light-grey: #e2e1e3; //light-grey
+$white: #FFFFFF;
+$black: #010101;
+$red: #521A14;
+
+body {
+	color: $black;
+
+	.color-primary,
+	.primary-color {
+		color: $primary-color !important;
+
+		span {
+			color: inherit !important;
+		}
+	}
+
+	.color-secondary,
+	.secondary-color {
+		color: $secondary-color !important;
+
+		span {
+			color: inherit !important;
+		}
+	}
+
+	.color-white {
+		color: $white !important;
+	}
+
+	.light-grey {
+		color: $light-grey;
+	}
+
+	.background-color-primary,
+	.background-primary-color {
+		background: $primary-color;
+	}
+
+	.background-secondary-color {
+		background: $secondary-color;
+	}
+
+	.background-color-white {
+		background: $white !important;
+	}
+
+	.background-light-grey {
+		background-color: $light-grey;
+	}
+}

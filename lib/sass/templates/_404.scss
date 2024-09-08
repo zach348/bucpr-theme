@@ -1,0 +1,302 @@
+.error404 {
+	.site {
+		header {
+			//padding: 0 0 2.4rem;
+			nav {
+				ul {
+					li.menu-item {
+						a {
+							//position: relative;
+							.menu-item-description {
+								// display: none;
+								// position: absolute;
+							}
+						}
+
+						ul.dropdown-menu {
+							// padding-top: 6rem;
+						}
+					}
+
+					li.menu-item:hover {
+						a {
+							// position: relative;
+							.menu-item-description {
+								// position: absolute;
+								// display: block;
+							}
+						}
+
+						ul.dropdown-menu {
+							// display: block;
+						}
+					}
+				}
+			}
+		}
+
+		.site-content {
+			#error404-page-hero {
+				color: red;
+				position: relative;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-color: $light-grey;
+
+				.menu-underlay {
+					left: 0;
+					top: 0;
+					background: rgba(0,0,0,.6);
+					display: none;
+
+					.inner {
+						background: $light-grey;
+						width: 500px;
+					}
+				}
+
+				.background-image {
+					min-height: 368px;
+				}
+
+				.text {
+					//max-width: 768px;
+					.inner {
+						.flourish {
+							width: 50%;
+							max-width: 326px;
+							height: 1px;
+							border: solid 1px $primary-color;
+						}
+
+						.title {
+							color: $primary-color;
+							font-size: 36px;
+							font-weight: normal;
+							font-style: normal;
+							font-stretch: normal;
+							line-height: 1;
+							letter-spacing: normal;
+						}
+
+						.lead {
+							color: $primary-color;
+							font-size: 24px;
+							font-weight: normal;
+							font-style: normal;
+							font-stretch: normal;
+							line-height: 1.4;
+							letter-spacing: normal;
+						}
+					}
+				}
+			}
+
+			form {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				i {
+					display: none;
+				}
+
+				label {
+					margin: 0.5rem;
+				}
+
+				.submit {
+					margin: 0.5rem;
+				}
+			}
+
+			form {
+				border-bottom: 3px solid #019f9d;
+				background: no-repeat;
+				//margin: 0 2rem;
+				height: 4rem;
+				max-width: none !important;
+
+				i {
+					position: relative;
+					color: $secondary-color;
+					font-size: 1.4rem;
+				}
+
+				label {
+					width: 75%;
+					margin: 0;
+				}
+
+				input[type="search"] {
+					background: none;
+					border: none;
+					padding: 0 1rem;
+					width: 100%;
+					max-width: none;
+					color: $primary-color;
+					font-size: 24px;
+					font-weight: 500;
+				}
+
+				input::placeholder {
+					color: $primary-color;
+					opacity: 1;
+					font-size: 24px;
+					font-weight: 300;
+				}
+				@media only screen and (max-width: 576px) {
+					input[type="search"] {
+						font-size: 16px;
+					}
+
+					input::placeholder {
+						font-size: 16px;
+					}
+				}
+
+				.submit {
+					//right: 1rem;
+					input[type="submit"] {
+						color: $primary-color;
+						text-transform: uppercase;
+						width: 25%;
+						position: relative;
+						width: auto;
+						font-size: 16px;
+						font-weight: bold;
+						font-style: normal;
+						font-stretch: normal;
+						line-height: normal;
+						letter-spacing: 1px;
+						background: none;
+						border: none;
+						cursor: pointer;
+						text-align: right;
+					}
+
+					i {
+						color: $primary-color;
+						font-size: 1rem;
+						position: absolute;
+						right: 0;
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.error404 {
+		.site {
+			header {}
+
+			.site-content {
+				#sub-page-hero {
+					.background-image {}
+
+					.text {
+						padding-left: 1.5rem !important;
+
+						.inner {
+							.title {}
+
+							.lead {
+								// font-size: 18px;
+								// font-weight: normal;
+								// font-style: normal;
+								// font-stretch: normal;
+								// line-height: 1.5;
+								// letter-spacing: normal;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.page {
+		.site {
+			header {
+				nav {
+					ul {
+						li {
+							a {
+								.menu-item-description {}
+							}
+						}
+					}
+				}
+			}
+
+			.site-content {
+				#sub-page-hero {
+					position: relative;
+
+					.background-image {
+						min-height: 144px;
+						height: 50vw;
+						max-height: 24rem;
+					}
+
+					.text {
+						.inner {
+							.flourish {
+								width: 50%;
+								max-width: none;
+							}
+
+							.title {
+								font-size: 30px;
+							}
+
+							.lead {
+								font-size: 18px;
+								line-height: 1.5;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 576px) {
+	.page {
+		.site {
+			header {
+				nav {
+					ul {
+						li {
+							a {
+								.menu-item-description {}
+							}
+						}
+					}
+				}
+			}
+
+			.site-content {
+				#sub-page-hero {
+					.background-image {}
+
+					.text {
+						.inner {
+							.flourish {
+								width: 100%;
+								max-width: none;
+							}
+
+							.title {}
+
+							.lead {}
+						}
+					}
+				}
+			}
+		}
+	}
+}

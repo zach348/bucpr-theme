@@ -1,0 +1,141 @@
+.page,
+.post-type-archive-tribe_events,
+.single,
+.sub-page {
+	.site {
+		.site-content {
+			.page-overlay {
+				left: 0;
+				top: 0;
+				background: rgba(0,0,0,.6);
+				display: none;
+				z-index: 99;
+			}
+
+			.sub-page-hero {
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-color: $light-grey;
+				min-height: 16rem;
+
+				.menu-underlay {
+					left: 0;
+					top: 0;
+					background: rgba(0,0,0,.6);
+					display: none;
+
+					.inner {
+						background: $light-grey;
+						width: 500px;
+					}
+				}
+
+				.background-image {
+					min-height: 368px;
+				}
+
+				.text {
+					//max-width: 768px;
+					.inner {
+						.flourish {
+							width: 50%;
+							max-width: 326px;
+							height: 1px;
+							border: solid 1px $primary-color;
+						}
+
+						.title {
+							color: $primary-color;
+							font-size: 36px;
+							font-weight: normal;
+							font-style: normal;
+							font-stretch: normal;
+							line-height: 1.2;
+							letter-spacing: normal;
+						}
+
+						.lead {
+							color: $primary-color;
+							font-size: 24px;
+							font-weight: normal;
+							font-style: normal;
+							font-stretch: normal;
+							line-height: 1.4;
+							letter-spacing: normal;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.page,
+	.single,
+	.sub-page {
+		.site {
+			.site-content {
+				.page-overlay {}
+
+				.sub-page-hero {
+					.menu-underlay {
+						.inner {}
+					}
+
+					.background-image {
+						min-height: 144px;
+						height: 50vw;
+						max-height: 24rem;
+					}
+
+					.text {
+						//max-width: 768px;
+						.inner {
+							.flourish {
+								width: 50%;
+								max-width: none;
+							}
+
+							.title {}
+
+							.lead {}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 576px) {
+	.page,
+	.single,
+	.sub-page {
+		.site {
+			.site-content {
+				.page-overlay {}
+
+				.sub-page-hero {
+					.menu-underlay {
+						.inner {}
+					}
+
+					.background-image {}
+
+					.text {
+						.inner {
+							.flourish {
+								width: 100%;
+								max-width: none;
+							}
+
+							.title {}
+
+							.lead {}
+						}
+					}
+				}
+			}
+		}
+	}
+}

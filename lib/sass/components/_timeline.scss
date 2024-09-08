@@ -1,0 +1,199 @@
+body {
+	.cool-timeline,
+	.cool-timeline-wrapper {
+		margin: 4rem auto;
+	}
+
+	.ctl-bullets-container {
+		display: none !important;
+	}
+
+	.cool_timeline {
+		font-family: $primary-font;
+
+		div.content-details {}
+	}
+
+	.cooltimeline_cont {
+		top: -66.5px;
+		position: relative;
+	}
+
+	.timeline-meta {
+		display: none;
+	}
+
+	.timeline-main-title {
+		display: none;
+	}
+
+	.cool-timeline .timeline-post .timeline-content .content-details {
+		padding: 40px;
+	}
+
+	.cool-timeline.one-sided .timeline-post,
+	.cool-timeline.one-sided .timeline-post.even {
+		padding-bottom: 84px;
+	}
+
+	.cool-timeline.white-timeline.one-sided::before,
+	.cool-timeline.white-timeline::before {
+		border-radius: 0;
+		background-color: $primary-color;
+		background-image: none;
+		border-color: $primary-color;
+	}
+	// .cool-timeline.white-timeline .timeline-year {
+	// 	box-shadow: 0 0 0 4px white, inset 0 0 0 2px rgba(0, 0, 0, 0.05), 0 0 0 8px $primary-color;
+	// }
+	.cool-timeline.white-timeline .timeline-year {
+		background: $primary-color;
+		box-shadow: 0 0 0 4px $primary-color,inset 0 0 0 2px $primary-color,0 0 0 8px $primary-color;
+		height: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		span {
+			font-weight: 500;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			top: 0;
+		}
+	}
+
+	.cool-timeline.white-timeline.one-sided .timeline-year::before {
+		background: $primary-color;
+		border: 2px solid $primary-color;
+	}
+
+	.cool-timeline.white-timeline .timeline-post.even .timeline-content .content-title,
+	.cool-timeline.white-timeline .timeline-post.odd .timeline-content .content-title {
+		display: none !important;
+		// background: $primary-color;
+		// line-height: 30px;
+		// min-height: 30px;
+		// height: 30px;
+		// min-height: 0;
+		// padding: 0;
+		// font-size: 0;
+		// border: none;
+		// margin-bottom: 0 !important;
+	}
+
+	.cool-timeline.white-timeline.one-sided .timeline-post.odd .timeline-content .content-title::before,
+	.main-design-3 .cool-timeline.dark-timeline.one-sided .timeline-post.odd .timeline-content::before,
+	.main-design-3 .cool-timeline.light-timeline.one-sided .timeline-post.odd .timeline-content::before,
+	.main-design-3 .cool-timeline.white-timeline.one-sided .timeline-post.odd .timeline-content::before {
+		border-right-color: $primary-color;
+	}
+
+	.cool-timeline.white-timeline .timeline-post.even .timeline-content .content-title::before,
+	.main-design-3 .cool-timeline.dark-timeline .timeline-post.even .timeline-content::before,
+	.main-design-3 .cool-timeline.light-timeline .timeline-post.even .timeline-content::before,
+	.main-design-3 .cool-timeline.white-timeline .timeline-post.even .timeline-content::before {
+		border-right-color: $primary-color;
+	}
+
+	.cool-timeline.white-timeline .timeline-post.odd .timeline-meta .meta-details {
+		color: $primary-color;
+	}
+
+	.cool-timeline.white-timeline .timeline-post.even .timeline-meta .meta-details {
+		color: $primary-color;
+	}
+
+	.cool-timeline.one-sided.white-timeline .timeline-post.even .icon-dot-full,
+	.cool-timeline.white-timeline .timeline-post.even .icon-dot-full,
+	.cool-timeline.white-timeline.compact .timeline-post.ctl-left .icon-dot-full,
+	.cool-timeline.white-timeline.compact .timeline-post.ctl-left .timeline-content .content-title,
+	.cool-timeline.white-timeline.compact .timeline-post.icons_yes.ctl-left .timeline-icon,
+	.main-design-3 .cool-timeline.dark-timeline.compact .timeline-post.timeline-mansory.ctl-left .timeline-content,
+	.main-design-3 .cool-timeline.dark-timeline.compact .timeline-post.timeline-mansory.ctl-left .timeline-icon {
+		background: $primary-color;
+	}
+
+	.cool-timeline.one-sided.white-timeline .timeline-post .icon-dot-full,
+	.cool-timeline.white-timeline .timeline-post .icon-dot-full {
+		background: $primary-color;
+	}
+
+	body .cool-timeline.white-timeline .timeline-post.even .timeline-content .content-title,
+	body .cool-timeline.white-timeline .timeline-post.odd .timeline-content .content-title {
+		height: 50px;
+	}
+
+	.ultimate-style .timeline-post .timeline-content .content-title {
+		padding: 10px 15px;
+		display: flex;
+		align-items: center;
+	}
+
+	.ultimate-style .timeline-post .timeline-content .content-title::before {
+		top: 14px !important;
+	}
+
+	.main-design-4 .cool-timeline .timeline-post.even .timeline-content .content-title::before {
+		top: 14px !important;
+	}
+
+	.main-design-4 .cool-timeline.white-timeline .timeline-post.even .timeline-content .content-title::before {
+		border: 2px solid $primary-color;
+	}
+
+	.main-design-4 .cool-timeline.white-timeline .timeline-post.odd .timeline-content .content-title::before {
+		border: 2px solid $primary-color;
+	}
+
+	.cool-timeline .timeline-post .icon-dot-full,
+	.cool-timeline.one-sided .timeline-post .icon-dot-full,
+	.main-design-4 .cool-timeline.dark-timeline.one-sided .timeline-post .icon-dot-full,
+	.main-design-4 .cool-timeline.light-timeline.one-sided .timeline-post .icon-dot-full {
+		margin: 9px 0 0 -7px;
+	}
+
+	.cool-timeline.white-timeline .timeline-post .timeline-content .content-title a {
+		// display: none;
+		padding: 10px 40px;
+	}
+
+	.cool-timeline.white-timeline .timeline-post .timeline-content .content-title a::after {
+		content: '\f054';
+		font-family: fontawesome;
+		font-size: 1rem;
+		margin: 0 0 0 .5rem;
+	}
+
+	.cool-timeline.white-timeline .timeline-post .timeline-content,
+	.section-bullets-bottom li.white-timeline,
+	.section-bullets-left li.white-timeline,
+	.section-bullets-right li.white-timeline {
+		border-top: 3px solid $primary-color !important;
+	}
+}
+@media only screen and (max-width: 860px) {
+	body {
+		.cool-timeline.white-timeline .timeline-year {
+			margin-top: 4rem;
+		}
+
+		.cool-timeline .timeline-post .icon-dot-full,
+		.cool-timeline .timeline-post .icon-dot-full-white {
+			margin: 30px 0 0 9px !important;
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	body {
+		.main-design-2 .cool-timeline .timeline-year span,
+		.main-design-3 .cool-timeline .timeline-year span,
+		.main-design-4 .cool-timeline .timeline-year span {
+			font-size: 18px;
+		}
+
+		.cool-timeline.white-timeline .timeline-year {
+			height: 48px;
+		}
+	}
+}

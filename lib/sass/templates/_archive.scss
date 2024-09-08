@@ -1,0 +1,463 @@
+.archive {
+	.autocomplete-suggestions {
+		display: none !important;
+	}
+
+	.site {
+		header {}
+
+		.content-area {
+			.site-main {
+				position: relative;
+
+				.featured {
+					.image {
+						max-width: 153px;
+
+						img {
+							border: .1rem solid $light-grey;
+						}
+					}
+
+					.content {
+						.post-category {}
+
+						h4 {
+							line-height: normal;
+						}
+
+						h3,
+						h3 a {}
+
+						.topics {}
+					}
+				}
+
+				.filters {
+					// background: $primary-color;
+					.titles {
+						.flourish {
+							background: $secondary-color;
+							margin-bottom: 20px;
+							position: relative;
+							top: 0;
+							left: 0;
+							width: 88px;
+							height: .125rem;
+						}
+					}
+
+					.nav-tabs {
+						border-bottom: .15rem solid $secondary-color;
+
+						.nav-item {
+							.nav-link {
+								border-radius: 0;
+								border: none;
+							}
+
+							.nav-link.active {
+								background-color: $secondary-color;
+							}
+						}
+					}
+
+					.dropdown {
+						background: $secondary-color !important;
+
+						.btn {
+							font-family: $primary-font;
+							color: $white !important;
+							font-size: 20px;
+							line-height: 32px;
+							text-align: left;
+							display: flex !important;
+							justify-content: space-between;
+						}
+
+						.nav {
+							display: none;
+						}
+
+						.dropdown-menu {
+							border-radius: 0;
+							border: .25rem solid $primary-color;
+
+							a {
+								color: $primary-color;
+								display: block;
+								width: 100%;
+								font-size: 18px;
+								text-decoration: none;
+							}
+						}
+					}
+
+					.dropdown.show {
+						.nav {
+							display: block;
+						}
+					}
+
+					.all-research-article-search-by-author {}
+
+					.research-project-types {
+						.facetwp-facet {
+							display: flex;
+
+							.facetwp-radio {
+								color: $white;
+
+								.facetwp-counter {
+									display: none;
+								}
+							}
+						}
+					}
+
+					.facetwp-facet {
+						margin-bottom: 0;
+
+						.fs-label,
+						.fs-label-wrap,
+						.fs-wrap {
+							height: 64px;
+							width: 100%;
+							border: none;
+						}
+
+						.facetwp-counter {
+							display: none;
+						}
+
+						.fs-arrow {
+							width: 0;
+							height: 0;
+							border-left: none;
+							border-right: none;
+							border-top: none;
+							position: absolute;
+							top: 0;
+							right: 0;
+							bottom: 0;
+							margin: auto;
+							height: 100%;
+							display: flex;
+							align-items: center;
+							width: 1rem;
+							z-index: 999;
+							width: 100%;
+							transition-duration: 0s;
+						}
+
+						.fs-arrow::before {
+							content: "\f078";
+							font-family: 'Font Awesome 5 Pro';
+							font-weight: 200;
+							position: absolute;
+							top: 0;
+							right: 1rem;
+							height: 100%;
+							display: flex;
+							align-items: center;
+						}
+
+						.facetwp-checkbox {
+							color: $white;
+							font-family: $primary-font;
+							font-size: 20px;
+							line-height: 32px;
+							font-weight: normal;
+							font-stretch: normal;
+							font-style: normal;
+							letter-spacing: normal;
+
+							.facetwp-counter {
+								display: none;
+							}
+						}
+
+						.fs-label {
+							display: flex;
+							align-items: center;
+							font-size: 24px;
+							line-height: 37;
+							font-weight: normal;
+							font-style: normal;
+							font-stretch: normal;
+							letter-spacing: normal;
+							padding: 0 1.5rem;
+						}
+
+						.fs-option {
+							cursor: pointer;
+							word-break: break-word;
+						}
+
+						.fs-label-wrap {}
+
+						.fs-label-wrap::after {
+							content: "";
+							display: block;
+							position: absolute;
+							right: 0;
+							top: 0;
+							height: 100%;
+							width: 50%;
+							// background: red;
+							background-image: linear-gradient(90deg, rgba(255,255,255,0.00) 0%, #FFFFFF 75%);
+						}
+
+						.fs-open {
+							background: $secondary-color;
+
+							.fs-label {
+								background: $secondary-color;
+								color: $white;
+							}
+
+							.fs-label-wrap::after {
+								content: "";
+								display: block;
+								position: absolute;
+								right: 0;
+								top: 0;
+								height: 100%;
+								width: 50%;
+								// background: red;
+								background-image: linear-gradient(90deg, rgba($secondary-color,0.00) 0%, $secondary-color 75%);
+							}
+
+							.fs-arrow {
+								transform: rotate(-180deg);
+							}
+
+							.fs-arrow::before {
+								left: 1rem;
+							}
+						}
+
+						.fs-dropdown {
+							border: .15rem solid $primary-color;
+							min-width: 260px;
+							width: 100%;
+							max-width: 480px;
+
+							.fs-search {
+								input {
+									margin-bottom: 0;
+								}
+							}
+
+							.fs-options {
+								.fs-option {
+									padding: 1rem 0;
+									border-bottom: .15rem solid $primary-color;
+								}
+
+								.fs-option.selected {
+									font-weight: bold;
+
+									.fs-option-label {
+										color: $secondary-color;
+										//font-weight: bold;
+									}
+								}
+
+								.fs-option-label {
+									color: $primary-color;
+									font-size: 24px;
+									line-height: 37px;
+									padding: 0 1.5rem;
+									font-weight: normal;
+									font-style: normal;
+									font-stretch: normal;
+									letter-spacing: normal;
+									white-space: break-spaces;
+								}
+
+								.fs-checkbox {
+									width: 4rem;
+								}
+
+								.fs-checkbox i {
+									// border: 2px solid $primary-color;
+									// border-radius: 0;
+									// height: 18px;
+									// width: 18px;
+								}
+							}
+
+							.facetwp-counter {
+								display: none;
+							}
+						}
+
+						.facetwp-search-wrap {
+							.facetwp-btn {
+								display: none;
+							}
+
+							.facetwp-search {
+								min-width: 260px;
+								width: auto;
+								height: 64px;
+								border: .15rem solid $primary-color;
+								padding: 0 1.5rem;
+							}
+
+							.facetwp-search::placeholder {
+								font-family: $primary-font;
+								color: $primary-color;
+								font-size: 20px;
+								// line-height: 32px;
+								// margin-bottom: 1.5rem;
+							}
+						}
+					}
+
+					.facetwp-type-autocomplete {
+						display: flex;
+
+						.facetwp-autocomplete {
+							float: left;
+							margin: 0 1rem 0 0;
+						}
+
+						.facetwp-autocomplete-update {
+							color: $white !important;
+							display: inline-block;
+							float: left;
+							width: auto;
+							font-size: 1rem;
+						}
+					}
+
+					.facetwp-type-checkboxes {
+						.facetwp-checkbox {
+							background-image: none;
+							position: relative;
+							display: flex;
+							align-items: center;
+							padding-left: 2rem;
+						}
+
+						.facetwp-checkbox::before {
+							border: .15rem solid $white;
+							background: none;
+							content: '';
+							width: 1rem;
+							height: 1rem;
+							display: inline-flex;
+							position: absolute;
+							left: 0;
+							// top: 0;
+							// bottom: 0;
+						}
+
+						.facetwp-checkbox.checked::before {
+							// border: .15rem solid $white;
+							background: $white;
+						}
+					}
+
+					.no-search {
+						.fs-search {
+							display: none;
+						}
+					}
+				}
+
+				.facetwp-template {}
+
+				.posts {
+					.flourish {
+						background: $secondary-color;
+						margin-bottom: 20px;
+						position: relative;
+						top: 0;
+						left: 0;
+						width: 10vw;
+						max-width: 88px;
+						height: .125rem;
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 576px) {
+	.post-type-archive {
+		.site {
+			header {}
+
+			.content-area {
+				.site-main {
+					.featured {
+						.flourish {}
+
+						.image {
+							max-width: none;
+
+							img {}
+						}
+
+						.content {
+							.post-category {}
+
+							h4 {}
+
+							h3,
+							h3 a {}
+
+							.topics {}
+						}
+					}
+
+					.filters {
+						.titles {
+							.flourish {}
+
+							h2,
+							p {}
+
+							h2 {}
+
+							p {}
+						}
+
+						.facetwp-facet {
+							.fs-label,
+							.fs-label-wrap,
+							.fs-wrap {}
+
+							.fs-label {}
+
+							.fs-open {
+								.fs-label {}
+							}
+
+							.fs-dropdown {
+								.fs-search {}
+
+								.fs-options {
+									.fs-option {}
+
+									.fs-option-label {}
+
+									.fs-checkbox {}
+
+									.fs-checkbox i {}
+								}
+
+								.facetwp-counter {}
+							}
+						}
+					}
+
+					.facetwp-template {}
+				}
+			}
+		}
+	}
+}

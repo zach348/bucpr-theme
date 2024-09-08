@@ -1,0 +1,117 @@
+body {
+	.site {
+		.site-content {
+			.jumbotron.eight-dimensions-hero {
+				.image {}
+			}
+
+			.content-area {
+				.eight-dimensions-of-wellness {
+					column-count: 2;
+					column-gap: 3rem;
+
+					.dimension {
+						//width: 50%;
+						.inner {
+							background: rgba($light-grey,.5);
+
+							p {
+								margin-bottom: 0;
+							}
+						}
+					}
+
+					.dimension.spacer {
+						padding-top: 8rem;
+					}
+
+					.dimension:nth-last-child(1) {
+						margin-bottom: 0 !important;
+					}
+
+					.dimension:nth-child(1) {
+						position: relative;
+
+						.dimension-border {
+							background-color: #019f9d;
+						}
+					}
+
+					.dimension:nth-child(2) {
+						.dimension-border {
+							background-color: #7fcccc;
+						}
+					}
+
+					.dimension:nth-child(3) {
+						.dimension-border {
+							background-color: #1d5358;
+						}
+					}
+
+					.dimension:nth-child(4) {
+						.dimension-border {
+							background-color: #88a3a7;
+						}
+					}
+
+					.dimension:nth-child(5) {
+						.dimension-border {
+							background-color: #40b7b4;
+						}
+					}
+
+					.dimension:nth-child(6) {
+						.dimension-border {
+							background-color: #bfe4e5;
+						}
+					}
+
+					.dimension:nth-child(7) {
+						.dimension-border {
+							background-color: #4b787b;
+						}
+					}
+
+					.dimension:nth-child(8) {
+						.dimension-border {
+							background-color: #c2d0d2;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	body {
+		.site {
+			.site-content {
+				.jumbotron.eight-dimensions-hero {
+					.image {
+						min-height: 320px;
+					}
+				}
+
+				.content-area {
+					.eight-dimensions-of-wellness {
+						column-count: 1;
+						column-gap: 0;
+
+						.dimension {
+							width: 100%;
+
+							.inner {
+								width: 100%;
+							}
+						}
+
+						.dimension.spacer {
+							padding-top: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}

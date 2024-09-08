@@ -1,0 +1,108 @@
+@import 'reset';
+@import 'colors';
+@import 'typography';
+@import 'old-bootstrap';
+
+body {
+	font-family: $primary-font;
+	background: $white;
+	margin: 0 !important;
+	opacity: 1 !important;
+
+	.container {
+		max-width: 90%;
+	}
+
+	.searchwp-live-search-results {
+		border-radius: 0;
+	}
+
+	.searchwp-revised-search-notice:nth-child(1) {
+		display: none;
+	}
+
+	.searchwp-revised-search-notice:nth-child(2) {
+		font-style: normal;
+		padding: 1rem;
+		margin: 0;
+	}
+
+	.page-overlay {
+		left: 0;
+		top: 0;
+		background: rgba(0,0,0,.6);
+		display: none;
+		z-index: 99;
+	}
+
+	.background-image,
+	.background-image-cover {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.background-image-contain {
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.z-index-99 {
+		z-index: 99;
+	}
+
+	.top-zero {
+		top: 0;
+	}
+
+	#content {
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="password"],
+		input[type="search"],
+		input[type="number"],
+		input[type="tel"],
+		input[type="range"],
+		input[type="date"],
+		input[type="month"],
+		input[type="week"],
+		input[type="time"],
+		input[type="datetime"],
+		input[type="datetime-local"],
+		input[type="color"],
+		textarea {
+			border: 1px solid $primary-color;
+		}
+	}
+}
+@media only screen and (min-width: 576px) {
+	body {
+		.container {
+			max-width: 90% !important;
+		}
+	}
+}
+@media only screen and (min-width: 768px) {
+	body {
+		.container {
+			max-width: 90% !important;
+		}
+	}
+}
+@media only screen and (min-width: 992px) {
+	body {
+		.container {
+			width: 90% !important;
+			max-width: 1024px !important;
+		}
+	}
+}
+@media only screen and (min-width: 1200px) {
+	body {
+		.container {
+			max-width: 1024px !important;
+		}
+	}
+}

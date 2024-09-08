@@ -1,0 +1,27 @@
+.sub-page {
+	.site {
+		.content-area {
+			.jumbotron {
+				background: $light-grey;
+				position: relative;
+
+				.flourish {
+					background: $primary-color;
+					height: 0.15rem;
+				}
+
+				.menu-underlay {
+					left: 0;
+					top: 0;
+					background: rgba(0,0,0,.6);
+					display: none;
+
+					.inner {
+						background: $light-grey;
+						width: 500px;
+					}
+				}
+			}
+		}
+	}
+}
